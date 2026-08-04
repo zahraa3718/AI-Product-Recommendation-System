@@ -1,1 +1,26 @@
-# AI-Product-Recommendation-System
+# 🛒 AI Product Recommendation System (نظام التوصية بالمنتجات الذكي)
+
+مشروع ذكاء اصطناعي يحلل مواصفات وأوصاف المنتجات لاقتراح أكثر المنتجات ملاءمة وتوافقاً للعميل بناءً على خوارزمية **Cosine Similarity** واستخراج الخصائص بـ **TF-IDF Vectorization**.
+
+---
+
+## 🌟 الميزات الأساسية (Features)
+- 🎯 **توصية دقيقة:** حساب نسبة التشابه والتوافق بين المنتجات فوراً.
+- 📊 **تحليل بياني ملموس:** إظهار نسبة التوافق المئوية لكل منتج مقترح بواسطة Plotly.
+- ⚡ **سريع وفعال:** استخراج الخصائص النصية والـ Embeddings بطريقة خفيفة ومناسبة للمتاجر الإلكترونية.
+
+---
+
+## 🛠️ التقنيات المستخدمة (Tech Stack)
+* **اللغة:** Python
+* **الخوارزمية:** TF-IDF Vectorizer & Cosine Similarity (`scikit-learn`)
+* **الواجهة:** Gradio
+* **البيانات والرسومات:** Pandas, Plotly
+
+---
+
+## 🚀 كيفية التشغيل (How to Run)
+
+1. تثبيت المكتبات:
+```bash
+pip install gradio pandas scikit-learn plotly
